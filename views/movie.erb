@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p> Aqui tu cosa </p>
+
+		<% @selection.each do |film| %>
+			<img src="<%= film.poster %>" alt="<%= film.title %>" />
+		<% end %>
+
+</body>
+</html>
